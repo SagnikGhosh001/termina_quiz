@@ -5,7 +5,7 @@ import {
   selectNumberOfQuestions,
   selectType,
 } from "./src/quizMetaData.js";
-import { playQuiz } from "./src/startQuiz.js";
+import { playQuiz } from "./src/playQuiz.js";
 
 const main = async () => {
   const totalQuestion = await selectNumberOfQuestions();
