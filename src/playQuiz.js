@@ -15,7 +15,7 @@ export const selectAnswer = async (question) => {
 
 const displayMessage = (isAnswerCorrect, correct_answer, score) => {
   if (isAnswerCorrect) {
-    console.log(`✅ Your Answer Is Coorect, Your Score is ${score}`);
+    console.log(`✅ Your Answer Is Correct, Your Score is ${score}`);
     return;
   }
 
